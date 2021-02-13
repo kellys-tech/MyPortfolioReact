@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+/* NAVBAR ALL PAGES*/
+/* setting font-size for main text in navbar*/
+nav {
+  background-color:rgb(95, 91, 85);
+  font-size: 15pt;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  font-size: 25pt;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-custom a {
   color: white;
+  border-width: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+/* BODY ALL PAGES*/
+/*set background image and size*/
+body {
+  background-image: url("./assets/backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(223, 111, 70);
+  font-family: 'Lemonada', cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*CONTAINER ALL PAGES*/
+.container {
+  padding: 1.5em;
+  background-color: #cecdcd;
+  margin-top: 2em;
+  border-radius: 2ex;
+  box-shadow: 1px 1px 2px #d6d6d6, inset 4px 3px 8px 2px #a9a9a9, 8px 6px 6px 4px #444444;
+}
+
+/* INDEX.html (ABOUT ME) */
+/* section text with p tag*/
+section p {
+  font-size: 12pt;
+  font-family: 'Lato', sans-serif;
+}
+
+/* PORTFOLIO */
+/* cards in portfolio */
+.card{
+  margin:.7em;
+}
+.card-body {
+  font-family: 'Lato', sans-serif;
+  font-size: 10pt;
+}
+
+/*H4 properties inside container on ALL PAGES*/
+h4 {
+  padding-left: 10px;
+  color:black !important;
+}
+
+/* CONTACT ME */
+section form {
+  font-family: 'Lato', sans-serif;
+}
+/*button*/
+button {
+  background-color: #f07803 !important;
+  border-radius: 6px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  color: black;
+  font-family: 'Lemonada', cursive;
+}
+button:hover {
+  color: white !important;
+  font-weight: 700 !important;
+  letter-spacing: 5px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}
+
+.btn {
+  background-color: #f07803 !important;
+  border-color: black;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  color: black;
+  font-family: 'Lemonada', cursive;
+}
+button:hover {
+  color: white !important;
+  font-weight: 700 !important;
+  letter-spacing: 5px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.3s ease 0s;
+}
+
+/* FOOTER ALL PAGES*/
+/*sticky footer on ALL PAGES*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(95, 91, 85);
+  color: white;
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  font-size: 12pt;
+  padding-top: 20px;
+  font-size: 15pt;
+}
+/* Style all font awesome icons */
+.fab {
+  padding: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: right;
+  text-decoration: none;;
+}
+.far {
+  padding: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: right;
+  text-decoration: none;;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: rgb(95, 91, 85);
+  color: white;
+  float: right;
+}
+
+/* GitHub */
+.fa-github-square {
+  background: rgb(95, 91, 85);
+  color: white;
+  float: right;
+}
+
+.fa-file {
+  background: rgb(95, 91, 85);
+  color: white;
+  float: right;
 }

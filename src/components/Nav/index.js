@@ -1,21 +1,32 @@
-import React from "react";
+import React from 'react'
+import {BrowserRouter as Router} from "react-router-dom";
+import { Navbar,Nav } from 'react-bootstrap'
 
-function Nav() {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
-        <a className="nav-link " href="/index">Home</a>
-        <a className="nav-link" href="/portfolio">Portfolio</a>
-        <a className="nav-link" href="/contact">Contact</a>
-      </div>
-    </div>
-  </nav>
-  );
+class BootstrapNavbar extends React.Component{
+
+    render(){
+        return(
+            <div>
+                <div className="row">
+                    <div className="col-md-12">
+                        <Router>
+                            <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+                                <Navbar.Brand href="/">Kelly Smith</Navbar.Brand>
+                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                <Navbar.Collapse id="basic-navbar-nav">
+                                    <Nav className="mr-auto">
+                                    <Nav.Link href="/">Home</Nav.Link>
+                                    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                                    <Nav.Link href="/contact">Contact</Nav.Link>
+                                    </Nav>
+                                </Navbar.Collapse>
+                            </Navbar>
+                        </Router>
+                    </div>
+                </div>
+            </div>
+        )  
+    }
 }
 
-export default Nav;
+export default BootstrapNavbar;
