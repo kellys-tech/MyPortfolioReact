@@ -1,4 +1,4 @@
-# Responsive Portfolio
+# React Portfolio
 
 ### Github pages: https://kellys-tech.github.io/myportfolioreact/
 ### Github: https://github.com/kellys-tech/myportfolioreact
