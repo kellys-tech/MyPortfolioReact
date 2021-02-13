@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Responsive Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Github pages: https://kellys-tech.github.io/myportfolioreact/
+### Github: https://github.com/kellys-tech/myportfolioreact
 
-## Available Scripts
+*This is my portfolio website. It is created to showcase my work. Initially it will contain an About Me page, a Portfolio page, and a Contact page. This is used to showcase my abilities as a developer and also includes a  link to view my resume.
 
-In the project directory, you can run:
+## Webpage created using:
+* React
+* CSS
+* Bootstrap
 
-### `npm start`
+## Features
+### Navbar
+* contains links to About Me, Portfolio and Contact pages
+* uses bootstrap nav bar
+* uses custom colors for background and text (in css file)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Background
+* image added to background to replace default
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### About Me
+* contains a paragraph about me
+* content is reponsive to various screen sizes
+* content sits inside a container within a grid
+* colors set for background and text (in css file)
 
-### `npm test`
+### Portfolio
+* contains screen shots for projects with links to the live site and my github repository
+* content is reponsive to various screen sizes
+* images sit inside a container within a grid
+* colors set for background and text (in css file)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Contact Me
+* contains a bootstrap form with input fields for Name, Email and a Message
+* content is reponsive to various screen sizes
+* additional rows added to Message to make the input field larger
+* form contains a button to submit the contact form; button can be pressed but no information is currently sent; will be updated at later date
+* colors set for background and text (in css file)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Footer
+* is a sticky footer
+* content is reponsive to various screen sizes
+* information will be added to footer at a later date
+* colors set for background and text (in css file)
