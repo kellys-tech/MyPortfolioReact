@@ -13,7 +13,7 @@ function App() {
     <Router>
      <Nav />
       <Switch>
-        <Route exact path ={["/","/index"]} component={Index} />
+        <Route exact path ={["/", "/index"]} component={Index} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
