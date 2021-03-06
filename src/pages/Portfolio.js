@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import DM from "../assets/DinnerandMovie.png";
 
 function Portfolio() {
   return (
@@ -16,7 +17,7 @@ function Portfolio() {
       <Row>
         <Col xs="auto">
           <Card style={{width: '18rem'}}>
-            <Card.Img variant="top" src="https://github.com/japb1998/1_GroupProyect/raw/main/assets/MoviesGenerated.png" />
+            <Card.Img variant="top" src={DM} />
             <Card.Body>
               <Card.Title>D&M(Dinner and a Movie)</Card.Title>
               <Card.Text>Group Project</Card.Text>
