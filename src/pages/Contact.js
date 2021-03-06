@@ -21,7 +21,7 @@ function Contact() {
             <Form.Control type="text" placeholder="Enter your name" />
             <Form.Label>Email</Form.Label>
             <Form.Control type="email" placeholder="Enter your email" />
-            <Form.Label>Send me a message</Form.Label>
+            <Form.Label>Send me a direct message</Form.Label>
             <Form.Control type="textarea" placeholder="Hello. Send me a message" />
             <Button as="submit" variant="primary" value="Submit">Submit</Button>{' '}
           </Col>
