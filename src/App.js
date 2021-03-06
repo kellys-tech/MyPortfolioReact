@@ -1,8 +1,8 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import contact from "./pages/contact";
-import index from "./pages/index";
-import portfolio from "./pages/portfolio";
+import Contact from "./pages/contact";
+import Index from "./pages/index";
+import Portfolio from "./pages/portfolio";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import "./App.css";
@@ -13,9 +13,9 @@ function App() {
     <Router>
      <Nav />
       <Switch>
-        <Route exact path ={["/","/index"]} component={index} />
-        <Route exact path="/portfolio" component={portfolio} />
-        <Route exact path="/contact" component={contact} />
+        <Route exact path ={["/","/index"]} component={Index} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
         <Footer />
     </Router>
