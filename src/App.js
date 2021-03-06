@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contact from "./pages/contact";
 import Index from "./pages/index";
 import Portfolio from "./pages/portfolio";
@@ -15,7 +15,7 @@ function App() {
       <Switch>
         <Route exact path ={["/","/index"]} component={Index} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
+        <Route path="/contact" component={Contact} />
       </Switch>
         <Footer />
     </Router>

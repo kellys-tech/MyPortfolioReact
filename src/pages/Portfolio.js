@@ -19,7 +19,7 @@ function Portfolio() {
           <Card style={{width: '18rem'}}>
             <Card.Img variant="top" src={DM} />
             <Card.Body>
-              <Card.Title>D&M(Dinner and a Movie)</Card.Title>
+              <Card.Title>DM(Dinner and a Movie)</Card.Title>
               <Card.Text>Group Project</Card.Text>
               <Button variant="primary" href="https://kellys-tech.github.io/DinnerandMovie/movies.html">Pages</Button>
               <Button href="https://github.com/kellys-tech/DinnerandMovie">GitHub</Button>
