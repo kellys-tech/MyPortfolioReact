@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
      <Nav />
       <Switch>
         <Route exact path ={["/", "/index"]} component={Index} />
