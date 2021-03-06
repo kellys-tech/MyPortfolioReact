@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-    <Router>
+    <Router basename="/myportfolioreact/">
      <Nav />
       <Switch>
         <Route exact path ={["/", "/index"]} component={Index} />
