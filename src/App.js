@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Contact from "./pages/contact";
 import Index from "./pages/index";
 import Portfolio from "./pages/portfolio";
@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
      <Nav />
       <Switch>
         <Route exact path ={["/", "/index"]} component={Index} />
