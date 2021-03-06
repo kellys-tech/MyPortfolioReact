@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router} from "react-router-dom";
+import {Link} from "react-router-dom";
 import { Navbar,Nav } from 'react-bootstrap'
 
 class BootstrapNavbar extends React.Component{
@@ -9,19 +9,17 @@ class BootstrapNavbar extends React.Component{
             <div>
                 <div className="row">
                     <div className="col-md-12">
-                        <Router>
                             <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
                                 <Navbar.Brand href="/">Kelly Smith</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                 <Navbar.Collapse id="basic-navbar-nav">
                                     <Nav className="mr-auto">
-                                    <Nav.Link href="/">Home</Nav.Link>
-                                    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                                    <Nav.Link href="/contact">Contact</Nav.Link>
+                                    <Link to="/">Home</Link>
+                                    <Link to="/portfolio">Portfolio</Link>
+                                    <Link to="/contact">Contact</Link>
                                     </Nav>
                                 </Navbar.Collapse>
                             </Navbar>
-                        </Router>
                     </div>
                 </div>
             </div>
